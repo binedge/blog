@@ -1,5 +1,10 @@
 const { withContentlayer } = require('next-contentlayer')
 
+module.exports = {
+  basePath: '/blog',
+  // ... other existing configurations ...
+};
+
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 })
