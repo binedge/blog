@@ -119,7 +119,7 @@ export default function ListLayoutWithTags({
               </ul>
             </div>
           </div>
-          <div style={{·paddingBottom:·100·` prettier/prettier}}>
+          <div style={{ paddingBottom: 100 }}>
             <ul>
               {displayPosts.map((post) => {
                 const { path, date, title, summary, tags } = post
